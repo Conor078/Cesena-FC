@@ -1,0 +1,117 @@
+body {
+	margin: 0px;
+	padding-right: 0px !important; /* sovrascrive bootstrap */
+	padding-left: 0px !important; /* sovrascrive bootstrap */
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* stili generali */
+h1 {
+	font-size: 1.5em;
+	letter-spacing: 0.05em;
+	float: left;
+}
+
+h2, h3 {
+	letter-spacing: 0.05em;
+	padding-bottom: 1em;
+	font-size: 3.5em;
+	font-family: 'Lobster', serif;
+}
+
+a {
+	color: rgb(181,181,181);
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+
+}
+
+/* intestazione e menu */
+header {
+	padding: 3em !important;
+}
+
+.home-link {
+	color: black;
+}
+.strong {
+	font-weight: 600;
+}
+
+.light {
+	font-weight: 200;
+}
+
+nav {
+	margin-top: 17px;
+	font-size: 1.5em;
+	font-weight: 200;
+	padding-left: 10%;
+	float: left;
+}
+
+nav ul li{
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+	letter-spacing: 0.05em;
+	list-style-type: none;
+}
+
+a.active {
+	text-decoration: underline;
+}
+
+/* contenuto principale della pagina */
+.main-content {
+	font-size: 1.5em;
+	color: rgb(99,99,99);
+	line-height: 2em;
+	margin-top:7%;
+	margin-bottom:7%;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+#home-intro {
+	padding: 0px 10%;
+}
+
+/* documentazione*/
+img.image-model {
+	width: 60%;
+	height: auto;
+}
+
+.doc-panel {
+	padding: 5em 3em;
+}
+
+#obiettivi {
+	background-color: rgb(251, 75, 97);
+	color: black;
+}
+
+#benchmarking, #architettura {
+	background-color: rgb(123, 37, 48);
+	color: white;
+}
+
+#layout {
+	background-color: rgb(47, 142, 187);
+	color: white;
+}
+
+/* footer */
+footer {
+	padding: 3em !important; /* sovrascrive bootstrap */
+	background-color: rgb(181,181,181);
+	width: 100%;
+}
+
+footer p a {
+	color: black;
+}
